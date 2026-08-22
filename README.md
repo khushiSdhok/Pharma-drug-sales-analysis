@@ -60,16 +60,28 @@ Key findings
 ├── README.md
 └── LICENSE
 ```
+## How to run
 
+Clone the repository:
 
-How to run
-bash
-git clone <repo-url>
-cd <repo-name>
-pip install -r requirements.txt
-jupyter notebook notebooks/pharma_sales_analysis.ipynb
+```bash
+git clone https://github.com/khushiSdhok/Pharma-drug-sales-analysis.git
+cd Pharma-drug-sales-analysis
+```
 
-Open dashboard/pharma_sales_dashboard.pbix in Power BI Desktop to view the dashboard.
+Install the required Python packages:
+
+```bash
+pip install pandas numpy scipy matplotlib seaborn jupyter
+```
+
+Run the notebook:
+
+```bash
+jupyter notebook notebooks/Final_analysis.ipynb
+```
+
+Open `dashboard/pharma_sales_analysis_dashboard.pbix` in Power BI Desktop to explore the interactive dashboard.
 
 Tools
 
