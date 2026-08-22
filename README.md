@@ -22,11 +22,12 @@ Python + Power BI analysis of 2,106 daily pharmaceutical sales records (2014–2
 - Linear regression to test for a long-term sales trend
 
 **Key findings**
-Sales are concentrated in one product. N02BE accounts for 49% of total sales on its own. N05B (15%) and R03 (9%) are next. The rest is a long tail.
-2016 was the peak year, then things trended down. 2016 hit 25,235 in annual sales, the high point in the dataset. Sales dropped in 2017, recovered somewhat in 2018, then fell to the lowest point in the data (17,086) in 2019.
-Sales are seasonal. January is the strongest month (13,971 cumulative), July the weakest (8,993). Sales dip mid-year and recover toward year-end.
-Sales activity peaks in the evening. Hourly totals climb through the day and peak around 20:00 (~53,311 in total sales at that hour).
-The differences are real, but there's no clean linear trend. ANOVA confirms statistically significant differences between products and between years. But a linear regression on sales over time comes back non-significant (p = 0.257, R² = 0.0006) — so "sales are trending up/down over time" isn't a claim the data supports. Whatever's driving the year-to-year swings, it isn't a steady trend; it's more likely product mix, seasonality, or external factors not captured here.
+- Sales are concentrated in one product. N02BE accounts for 49% of total sales on its own. N05B (15%) and R03 (9%) are next. The rest is a long tail.
+- 2016 was the peak year, then things trended down. 2016 hit 25,235 in annual sales, the high point in the dataset. Sales dropped in 2017, recovered somewhat in 2018, then fell to the lowest point in the data (17,086) in 2019.
+- Sales are seasonal. January is the strongest month (13,971 cumulative), July the weakest (8,993). Sales dip mid-year and recover toward year-end.
+- Sales activity peaks in the evening. Hourly totals climb through the day and peak around 20:00 (~53,311 in total sales at that hour).
+- The differences are real, but there's no clean linear trend. ANOVA confirms statistically significant differences between products and between years. But a linear regression on sales over time comes back non-significant (p = 0.257, R² = 0.0006) — so "sales are trending up/down over time" isn't a claim the data supports. Whatever's driving the year-to-year swings, it isn't a steady trend; it's more likely product mix, seasonality, or external factors not captured here.
+
 ## Dashboard
 
 **Page 1 — Sales Overview**
