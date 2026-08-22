@@ -21,7 +21,7 @@ Python + Power BI analysis of 2,106 daily pharmaceutical sales records (2014–2
 - One-way ANOVA + Tukey HSD, run separately for products and for years
 - Linear regression to test for a long-term sales trend
 
-**Key findings**
+## Key findings
 - Sales are concentrated in one product. N02BE accounts for 49% of total sales on its own. N05B (15%) and R03 (9%) are next. The rest is a long tail.
 - 2016 was the peak year, then things trended down. 2016 hit 25,235 in annual sales, the high point in the dataset. Sales dropped in 2017, recovered somewhat in 2018, then fell to the lowest point in the data (17,086) in 2019.
 - Sales are seasonal. January is the strongest month (13,971 cumulative), July the weakest (8,993). Sales dip mid-year and recover toward year-end.
