@@ -1,13 +1,13 @@
 # Pharma-drug-sales-analysis
-Pharma Sales Analysis & Power BI Dashboard
+## Pharma Sales Analysis & Power BI Dashboard
 
 Python + Power BI analysis of 2,106 daily pharmaceutical sales records (2014–2019), digging into product concentration, seasonality, and time-of-day patterns, then turned into a two-page interactive dashboard.
 
-Data
-2,106 daily observations, 2014–2019
-Fields: date, hour, product category, sales volume
-[Add source/link here — Kaggle, synthetic, etc.]
-What I did
+## Data
+
+- 2,106 daily observations, 2014–2019
+- Fields: date, hour, product category, sales volume
+- **Source:** [Kaggle — Pharma Sales Data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data)
 
 Exploratory analysis
 
