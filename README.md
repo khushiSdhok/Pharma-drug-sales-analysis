@@ -59,6 +59,8 @@ Key findings
 │   └── dashboard_page2.png
 ├── README.md
 └── LICENSE
+```
+
 
 How to run
 bash
