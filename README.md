@@ -45,13 +45,21 @@ Key findings
 
 
 
-Repo structure
-├── data/                  # raw and cleaned dataset
+## Repo structure
+
+```text
+├── data/
+│   ├── salesdaily.csv
+│   └── saleshourly.csv
 ├── notebooks/
-│   └── pharma_sales_analysis.ipynb
+│   └── Final_analysis.ipynb
 ├── dashboard/
-│   └── pharma_sales_dashboard.pbix
+│   ├── pharma_sales_analysis_dashboard.pbix
+│   ├── dashboard_page1.png
+│   └── dashboard_page2.png
 ├── README.md
+└── LICENSE
+
 How to run
 bash
 git clone <repo-url>
