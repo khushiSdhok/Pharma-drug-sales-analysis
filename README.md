@@ -83,10 +83,20 @@ jupyter notebook notebooks/Final_analysis.ipynb
 
 Open `dashboard/pharma_sales_analysis_dashboard.pbix` in Power BI Desktop to explore the interactive dashboard.
 
-Tools
+## Tools
 
-Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn), Power BI, DAX
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Power BI
+- DAX
 
-Limitations / next steps
-No linear trend was found over the full time range — worth testing for structural breaks or seasonality-adjusted trend instead of a single regression across all years.
-Product-level drivers behind the 2019 drop aren't investigated here; that's a natural next cut of this data.
+## Limitations / Next Steps
+
+- No statistically significant linear trend was found across the full time range.
+- Future analysis could test for structural breaks or seasonality-adjusted trends.
+- Product-level drivers behind the 2019 sales decline could be investigated further.
