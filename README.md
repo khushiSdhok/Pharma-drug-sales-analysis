@@ -7,6 +7,7 @@ Python + Power BI analysis of 2,106 daily pharmaceutical sales records (2014–2
 
 - 2,106 daily observations, 2014–2019
 - **Source:** [Kaggle — Pharma Sales Data](https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data)
+- Dataset licensed under CC BY-NC 4.0 (non-commercial use only)
 
 ## What I did
 
